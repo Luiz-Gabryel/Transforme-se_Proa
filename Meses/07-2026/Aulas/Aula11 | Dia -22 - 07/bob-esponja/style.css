@@ -1,0 +1,41 @@
+#siri-cascudo {
+  background-image: url(./img/siri.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  width: 800px;
+  height: 500px;
+}
+#lula {
+  position: absolute;
+}
+
+#bob {
+  position: absolute;
+}
+
+#lula img {
+  max-width: 90px;
+  padding: 0 220px 100px 0;
+}
+
+#bob img {
+  max-width: 160px;
+  transform: scaleX(-1);
+  padding: 0 0px 50px 50px;
+}
+
+.cliente {
+  display: flex;
+  padding-bottom: 100px;
+  padding-right: 400px;
+}
+
+.cliente img {
+  max-width: 90px;
+}
+
+
+

@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#hero {
+  background-color: black;
+  height: 500px;
+}
+
+#hero-content {
+  color: #fff;
+  display: flex;
+  height: 80%;
+  align-items: flex-end;
+}

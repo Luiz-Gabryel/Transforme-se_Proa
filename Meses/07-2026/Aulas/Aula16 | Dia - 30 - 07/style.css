@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#barra-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(7, 4, 4, 0.521);
+  padding: 20px;
+}
+
+#redes-sociais {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  color: beige;
+  font-size: 20px;
+}
+
+.btn-vermelho {
+  background-color: #e70405;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#acesso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-login a {
+  text-decoration: none;
+  color: beige;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#header {
+  display: flex;
+  background-color: rgba(163, 135, 135, 0.521);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+#menu button {
+  border-radius: 50%px;
+  width: 50px;
+}
+
+#menu span {
+  font-weight: bold;
+  font-size: 12px;
+  gap: 8px;
+}
+
+#logo {
+  width: 350px;
+  gap: 4px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#logo p {
+  padding-top: 4px;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#busca {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#busca input {
+  width: 200px;
+  padding: 10px;
+  font-size: 12px;
+  border: 0;
+  border-bottom: #000 solid 1px;
+  background: transparent;
+}

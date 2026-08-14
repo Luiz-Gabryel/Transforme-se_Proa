@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#cena {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("/bob-esponja/img/fenda.png");
+  background-size: contain;
+  height: 500px;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.personagem {
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+}
+
+.personagem img {
+  max-width: 200px;
+  max-height: 250px;
+}

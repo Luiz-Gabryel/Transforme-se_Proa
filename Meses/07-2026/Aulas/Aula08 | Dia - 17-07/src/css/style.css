@@ -1,0 +1,142 @@
+/* geral*/
+
+body {
+  background: linear-gradient(135deg, #ffd6ec 0%, #ff9ecf 45%, #ff5ea8 100%);
+  font-family: "Kameron", serif;
+  font-size: 22px;
+}
+
+p {
+  font-size: 24px;
+  color: #b3005f;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #b3005f;
+}
+
+#titulo {
+  color: #b3005f;
+  font-size: 72px;
+}
+
+/* navegacao */
+
+#barra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 30px 60px;
+}
+
+#barra img {
+  width: 80px;
+  height: auto;
+  transition: 1s;
+}
+
+#barra img:hover {
+  transform: rotate(360deg);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+/* hero */
+
+#hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+#hero-texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+#hero-imagem {
+  width: 90%;
+}
+
+#hero-imagem img {
+  width: 30%;
+  height: auto;
+  position: relative;
+  left: 50%;
+  border-radius: 25%;
+  box-shadow: 0 10px 25px rgba(255, 0, 128, 0.3);
+  transition: 1s;
+}
+
+#hero-imagem img:hover {
+  transform: scale(1.2);
+}
+
+/* botoes */
+
+#hero-bnt {
+  width: 100%;
+  display: flex;
+  gap: 120px;
+}
+
+#hero-bnt-principal {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff7eb3, #ff4d94, #d63384);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  transition: 1s;
+}
+
+#hero-bnt-nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff7eb3, #ff4d94, #d63384);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+}
+
+#hero-bnt-principal:hover {
+  transform: scale(1.1);
+}
+
+#hero-bnt-secundario {
+  width: 50%;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  background: linear-gradient(135deg, #ffc1e3, #ff7eb3);
+  transition: 1s;
+  cursor: pointer;
+}
+
+#hero-bnt-secundario:hover {
+  transform: scale(1.1);
+}

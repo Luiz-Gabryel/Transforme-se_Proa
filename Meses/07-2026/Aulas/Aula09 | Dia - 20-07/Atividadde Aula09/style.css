@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: darkgrey;
+  border: 2px solid black;
+}
+
+.menu a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.text {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+li {
+  text-align: start;
+}
+
+.botao {
+  border: 2px solid black;
+  border-radius: 25%;
+  padding: 10px 20px;
+}

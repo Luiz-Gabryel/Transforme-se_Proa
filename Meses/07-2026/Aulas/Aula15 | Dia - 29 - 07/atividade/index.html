@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Web Awesome -->
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.10.0/styles/themes/default.css">
+<script type="module" src="https://ka-f.webawesome.com/webawesome@3.10.0/webawesome.loader.js"></script>
+
+<!-- Optional CSS reset ("Native Styles") -->
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.10.0/styles/native.css">
+    <title>Transforma-se SP09</title>
+    <link rel="shortcut icon" href="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/SerasaExperian-TM_Portrait_RGB.svg/500px-SerasaExperian-TM_Portrait_RGB.svg.png" type="image/x-icon" />
+
+    <style>* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f8fc;
+  color: #003b7a;
+  height: 100%;
+}
+
+#topo {
+  background-color: #0057b8;
+  border-bottom: 2px solid #003b7a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  background-color: #fff;
+  width: 100px;
+}
+
+#barra-navegacao ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+#barra-navegacao a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+#barra-navegacao a:hover {
+  color: #b3d9ff;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #0057b8;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: end;
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  gap: 20px;
+}
+
+footer a {
+  color: #b3d9ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+section {
+  border: 2px solid #0057b8;
+  background-color: #ffffff;
+  padding: 10px 20px 30px;
+  border-radius: 8px;
+}
+
+section p {
+  padding: 10px;
+}
+
+#projetos {
+  display: flex;
+  border: 2px solid #0057b8;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#card {
+  border: 2px solid #0057b8;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+}
+
+#modulos {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+  list-style: none;
+  gap: 20px;
+}
+
+#tec {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#tec img {
+  width: 50px;
+  height: 50px;
+}
+</style>
+  </head>
+
+  <body>
+    <header id="topo">
+      <div id="logo">
+        <img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/SerasaExperian-TM_Portrait_RGB.svg/500px-SerasaExperian-TM_Portrait_RGB.svg.png" alt="Logo" />
+        <h2>Transforma-se SP09</h2>
+      </div>
+
+      <nav id="barra-navegacao">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Aulas</a></li>
+          <li><a href="#">Atividades</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section class="banner">
+          <h1>Bem-vindo ao Transforma-se SP09</h1>
+
+          <p>Aprendendo html, css, js fazendo atividades e projetos.</p>
+        </section>
+
+        <section>
+          <h2>Nossas aulas</h2>
+
+          <p>as aulas são divididas em modulos.</p>
+
+          <ul id="modulos">
+            <li><wa-icon name="html5" family="brands"></wa-icon>html</li>
+            <li><wa-icon name="css" family="brands"></wa-icon>css</li>
+            <li><wa-icon name="js" family="brands"></wa-icon>js</li>
+            <li><wa-icon name="git-alt" family="brands"></wa-icon>git</li>
+            <li><wa-icon name="github" family="brands"></wa-icon>github</li>
+            <li><wa-icon name="figma" family="brands"></wa-icon>figma</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Fizemos atividades</h2>
+
+          <p>Fizemos exercicios pra praticar.</p>
+
+          <ol>
+            <li>fazendo html, e entender semantica e SEO</li>
+            <li>mexendo com estelizaçã com css</li>
+            <li>responsibilidade</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>meus projetos</h2>
+
+          <p>desenvolvendo um site pra mostar aprendizados que fiz</p>
+          <div id="projetos">
+            <table border="1">
+              <tr>
+                <th>projetos</th>
+                <th>oq e</th>
+              </tr>
+              <tr>
+                <td>Bob-esponja</td>
+                <td>Aprendendo a usar justify-content</td>
+              </tr>
+              <tr>
+                <td>pokemon</td>
+                <td>Aprendendo usar tables</td>
+              </tr>
+            </table>
+
+        </section>
+<div id="tec">
+    <marquee behavior="" direction=""><img src="   https://cdn-icons-png.flaticon.com/512/174/174854.png " alt="html" />
+  <img src="   https://cdn-icons-png.flaticon.com/512/732/732190.png " alt="css" />
+  <img src="   https://cdn-icons-png.flaticon.com/512/5968/5968292.png " alt="js" />
+  <img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" alt="git" />
+  <img src="   https://cdn-icons-png.flaticon.com/512/733/733609.png " alt="github" />
+  <img src="  https://cdn-icons-png.flaticon.com/512/5968/5968705.png " alt="figma" /></marquee>
+  
+</div>
+          </div>
+        <aside>
+          <h3>Informações Gerais</h3>
+          <p><strong>Aulas:</strong> Segunda a Sexta, das 19h às 22h.</p>
+          <p><strong>Professor:</strong> Thiago Cardoso</p>
+          <p><strong>Turma:</strong> SP09</p>
+        </aside>
+      </article>
+    </main>
+
+    <footer>
+      <nav>
+        <a href="#">Contato</a>
+      </nav>
+
+      <nav>
+        <a href="#">instagram</a>
+        <a href="#">facebook</a>
+        <a href="#">linkedin</a>
+      </nav>
+    </footer>
+  </body>
+
+<script>
+    alert("hi, professor, site ta perfeito");
+
+    let nome = prompt("Qual seu nome, professor?");
+    console.log(nome);
+ alert("nossa, seu nome e massa, seu nome e " + nome + " que nome massa");
+    
+</script>
+
+</html>

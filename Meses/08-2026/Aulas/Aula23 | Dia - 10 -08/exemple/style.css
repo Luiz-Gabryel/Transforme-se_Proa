@@ -1,0 +1,39 @@
+.example1 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  top: 200px;
+  left: 100px;
+}
+.texto {
+  position: absolute;
+  z-index: 1;
+}
+
+.caixa-vermelha {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  z-index: 16;
+  border-radius: 1000px;
+}
+
+.caixa-azul {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: absolute;
+  z-index: 15;
+}
+.caixa-verde {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  position: absolute;
+  z-index: 20;
+  border-radius: 30000px;
+}
