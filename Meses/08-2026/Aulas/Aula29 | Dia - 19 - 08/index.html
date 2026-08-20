@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmes Piratas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="conteiner">
+        <div class="logo">
+          <h1>Filmes <span class="destaque">Piratas</span></h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Início</a></li>
+
+            <li class="dropdown">
+              <a href="#">Filmes↓</a>
+
+              <ul class="dropdown-content">
+                <li><a href="#">Em Cartaz</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Críticas</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Notícias</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="conteiner">
+      <input type="radio" name="radio-btn" id="radio1" checked />
+      <input type="radio" name="radio-btn" id="radio2" />
+      <input type="radio" name="radio-btn" id="radio3" />
+      <div class="slider-container">
+        <div class="slides">
+          <div class="slide-1">
+            <img src="./img/img-slide1.png" alt="Homem Aranha" />
+            <div class="mascara"></div>
+            <div class="legenda">
+              <h2>texto 1</h2>
+              <p>paragrafo 1</p>
+            </div>
+          </div>
+
+          <div class="slide-2">
+            <img src="./img/img-slide2.png" alt="Deadpool" />
+            <div class="mascara"></div>
+            <div class="legenda">
+              <h2>texto 2</h2>
+              <p>paragrafo 2</p>
+            </div>
+          </div>
+
+          <div class="slide-3">
+            <img src="./img/img-slide3.png" alt="The Batman" />
+            <div class="mascara"></div>
+            <div class="legenda">
+              <h2>texto 3</h2>
+              <p>paragrafo 3</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="navecacao-slider">
+          <label for="radio1" class="btn-slider"></label>
+          <label for="radio2" class="btn-slider"></label>
+          <label for="radio3" class="btn-slider"></label>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
