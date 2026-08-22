@@ -479,3 +479,8 @@ footer {
   border: none;
   font-weight: bold;
 }
+
+.contato {
+  box-shadow: 0px 17px 13px 4px rgba(0, 0, 0, 0.55);
+  background-color: #f1f1f1;
+}
