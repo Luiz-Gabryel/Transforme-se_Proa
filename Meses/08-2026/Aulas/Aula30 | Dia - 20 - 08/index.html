@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmes Piratas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+      <div class="conteiner">
+        <div class="logo">
+          <h1>Filmes <span class="destaque">Piratas</span></h1>
+        </div>
+
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#">Início</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Filmes ↓</a>
+
+              <ul class="dropdown-content">
+                <li>
+                  <a href="#">Em Cartaz</a>
+                </li>
+
+                <li>
+                  <a href="#">Lançamentos</a>
+                </li>
+
+                <li>
+                  <a href="#">Críticas</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">Séries</a>
+            </li>
+
+            <li>
+              <a href="#">Notícias</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SLIDER -->
+    <main>
+      <div class="conteiner">
+        <input type="radio" name="radio-btn" id="radio1" checked />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+
+        <div class="slider-container">
+          <div class="slides">
+            <!-- SLIDE 1 -->
+            <div class="slide-1">
+              <img src="./img/img-slide1.png" alt="Homem-Aranha" />
+
+              <div class="mascara"></div>
+
+              <div class="legenda">
+                <h2>Homem-Aranha</h2>
+                <p>Confira as novidades do universo do Homem-Aranha.</p>
+              </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide-2">
+              <img src="./img/img-slide2.png" alt="Deadpool" />
+
+              <div class="mascara"></div>
+
+              <div class="legenda">
+                <h2>Deadpool</h2>
+                <p>Confira as novidades e lançamentos de Deadpool.</p>
+              </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="slide-3">
+              <img src="./img/img-slide3.png" alt="The Batman" />
+
+              <div class="mascara"></div>
+
+              <div class="legenda">
+                <h2>The Batman</h2>
+                <p>Veja as principais notícias sobre o Cavaleiro das Trevas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- NAVEGAÇÃO DO SLIDER -->
+          <!-- <div class="navecacao-slider">
+            <label
+              for="radio1"
+              class="btn-slider"
+            ></label>
+
+            <label
+              for="radio2"
+              class="btn-slider"
+            ></label>
+
+            <label
+              for="radio3"
+              class="btn-slider"
+            ></label>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- NOTÍCIAS -->
+      <div class="conteiner">
+        <section class="noticias">
+          <h2>Notícias</h2>
+
+          <div class="grid-cards">
+            <!-- CARD 1 -->
+            <article class="card">
+              <img
+                src="https://midias.imagemfilmes.com.br/capas/5c9b6bf1-780f-48da-91e9-3f885bd2f971_m.jpg?2025-03-26T10:29:50.488167"
+                alt="Notícia Homem-Aranha"
+              />
+
+              <div class="card-texto">
+                <h3>Título da notícia 1</h3>
+                <p>Primeira linha da notícia.</p>
+              </div>
+            </article>
+
+            <!-- CARD 2 -->
+            <article class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJnk_gazh7iGBbxaPZGN5U2fuhjGGelBFZAbJnYVIgQ&s=10"
+                alt="Notícia Sonic"
+              />
+
+              <div class="card-texto">
+                <h3>Título da notícia 2</h3>
+                <p>Primeira linha da notícia.</p>
+              </div>
+            </article>
+
+            <!-- CARD 3 -->
+            <article class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1kH63yGx6AL86Us2D7_3pvnuDUrwPjsKy3Lzkoppkw&s=10"
+                alt="Notícia Shrek"
+              />
+
+              <div class="card-texto">
+                <h3>Título da notícia 3</h3>
+                <p>Primeira linha da notícia.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="sessao-destaque">
+          <h2>Em destaque</h2>
+
+          <div class="layout-destaque">
+            <!-- Notícia principal -->
+            <article class="artigo-principal">
+              <img
+                src="https://wallpapers.com/images/hd/all-superhero-of-avengers-8umq9c3bffyuqmpb.jpg"
+                alt="Imagem da notícia principal"
+              />
+
+              <div class="card-texto">
+                <h3>Texto destaque</h3>
+                <p>Parágrafo destaque</p>
+              </div>
+            </article>
+
+            <!-- Notícias secundárias -->
+            <aside class="lista-secundaria">
+              <article class="noticia-menor">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLvFEajTwcv4PG64c_ieRb4g1h1sLjLy6UhuzGZH24bw&s=10"
+                  alt="Imagem da notícia secundária"
+                />
+
+                <div class="card-texto texto-menor">
+                  <h4>Texto card 2</h4>
+                </div>
+              </article>
+
+              <article class="noticia-menor">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLvFEajTwcv4PG64c_ieRb4g1h1sLjLy6UhuzGZH24bw&s=10"
+                  alt="Imagem da notícia secundária"
+                />
+
+                <div class="card-texto texto-menor">
+                  <h4>Texto card 3</h4>
+                </div>
+              </article>
+
+              <article class="noticia-menor">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLvFEajTwcv4PG64c_ieRb4g1h1sLjLy6UhuzGZH24bw&s=10"
+                  alt="Imagem da notícia secundária"
+                />
+
+                <div class="card-texto texto-menor">
+                  <h4>Texto card 4</h4>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

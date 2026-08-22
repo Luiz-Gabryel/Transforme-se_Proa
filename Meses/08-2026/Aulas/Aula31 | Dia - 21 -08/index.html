@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IndieZone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+      <div class="conteiner">
+        <div class="logo">
+          <h1>Indie<span class="destaque">Zone</span></h1>
+        </div>
+
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#inicio">Início</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#lancamentos">Lançamentos ↓</a>
+
+              <ul class="dropdown-content">
+                <li>
+                  <a href="#lancamentos">Este Mês</a>
+                </li>
+
+                <li>
+                  <a href="#lancamentos">Em Breve</a>
+                </li>
+
+                <li>
+                  <a href="#destaque">Análises</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#destaque">Plataformas</a>
+            </li>
+
+            <li>
+              <a href="#noticias">Notícias</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- SLIDER -->
+      <div class="conteiner" id="inicio">
+        <input type="radio" name="radio-btn" id="radio1" checked />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+
+        <div class="slider-container">
+          <div class="slides">
+            <!-- SLIDE 1 -->
+            <div class="slide-1">
+              <img
+                src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop"
+                alt="Hollow Knight Silksong"
+              />
+
+              <div class="mascara"></div>
+
+              <div class="legenda">
+                <h2>Hollow Knight: Silksong</h2>
+                <p>
+                  Nova atualização da Team Cherry renova a esperança da
+                  comunidade para o lançamento.
+                </p>
+              </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide-2">
+              <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop"
+                alt="Hades II"
+              />
+
+              <div class="mascara"></div>
+
+              <div class="legenda">
+                <h2>Hades II</h2>
+                <p>
+                  Supergiant Games revela detalhes da versão completa após
+                  período de Early Access.
+                </p>
+              </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="slide-3">
+              <img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop"
+                alt="Mina the Hollower"
+              />
+
+              <div class="mascara"></div>
+
+              <div class="legenda">
+                <h2>Mina the Hollower</h2>
+                <p>
+                  Criadores de Shovel Knight preparam novo título estilo Game
+                  Boy Color.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOTÍCIAS / LANÇAMENTOS -->
+      <div class="conteiner">
+        <section class="noticias" id="lancamentos">
+          <h2>Próximos Jogos Indie</h2>
+
+          <div class="grid-cards">
+            <!-- CARD 1 -->
+            <article class="card">
+              <img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&auto=format&fit=crop"
+                alt="Jogo Pixel Art"
+              />
+
+              <div class="card-texto">
+                <h3>Pixel Adventure ganha data</h3>
+                <p>
+                  O aguardado metroidvania em pixel art teve sua data de estreia
+                  confirmada para o próximo mês.
+                </p>
+              </div>
+            </article>
+
+            <!-- CARD 2 -->
+            <article class="card">
+              <img
+                src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop"
+                alt="Jogo Abstrato"
+              />
+
+              <div class="card-texto">
+                <h3>Novo Roguelike Deckbuilder</h3>
+                <p>
+                  Estúdio independente anuncia mecânica inovadora misturando
+                  cartas e elementos de sobrevivência.
+                </p>
+              </div>
+            </article>
+
+            <!-- CARD 3 -->
+            <article class="card">
+              <img
+                src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=400&auto=format&fit=crop"
+                alt="Jogo de Ficção Científica"
+              />
+
+              <div class="card-texto">
+                <h3>Demo grátis na Steam</h3>
+                <p>
+                  Sci-Fi indie de exploração espacial libera demonstração
+                  gratuita por tempo limitado.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="sessao-destaque" id="destaque">
+          <h2>Em destaque</h2>
+
+          <div class="layout-destaque">
+            <!-- Notícia principal -->
+            <article class="artigo-principal" id="noticias">
+              <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop"
+                alt="Desenvolvimento de Jogos"
+              />
+
+              <div class="card-texto">
+                <h3>O impacto do Steam Next Fest na cena Indie</h3>
+                <p>
+                  Festival de demonstrações continua quebrando recordes de
+                  jogadores e impulsionando estúdios solo ao redor do mundo.
+                </p>
+              </div>
+            </article>
+
+            <!-- Notícias secundárias -->
+            <aside class="lista-secundaria">
+              <article class="noticia-menor">
+                <img
+                  src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=200&auto=format&fit=crop"
+                  alt="Setup Gamer"
+                />
+
+                <div class="card-texto texto-menor">
+                  <h4>
+                    10 jogos indie brasileiros para colocar na sua Lista de
+                    Desejos
+                  </h4>
+                </div>
+              </article>
+
+              <article class="noticia-menor">
+                <img
+                  src="https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=200&auto=format&fit=crop"
+                  alt="Console Portátil"
+                />
+
+                <div class="card-texto texto-menor">
+                  <h4>
+                    Como o Nintendo Switch se tornou o paraíso dos
+                    desenvolvedores indie
+                  </h4>
+                </div>
+              </article>
+
+              <article class="noticia-menor">
+                <img
+                  src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=200&auto=format&fit=crop"
+                  alt="Trilha Sonora"
+                />
+
+                <div class="card-texto texto-menor">
+                  <h4>
+                    Trilhas sonoras marcantes: As composições mais aguardadas do
+                    ano
+                  </h4>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </section>
+
+        <section class="noticia-t">
+          <div class="caminho">Inicio / Noticias / Game</div>
+          <div class="titulo-t">
+            <h2>
+              O Futuro dos Jogos Indie: O que esperar das próximas grandes
+              produções
+            </h2>
+          </div>
+          <div class="sub-titulo-t">
+            <p>
+              Descubra as tendências de design, mecânicas e narrativas que vão
+              moldar a indústria dos games independentes nos próximos anos.
+            </p>
+          </div>
+          <div class="imagem-t">
+            <img
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80"
+              alt="Imagem para nossa noticia-t"
+            />
+          </div>
+          <div class="texto-t">
+            <p>
+              O mercado de jogos indie sempre foi um terreno fértil para a
+              inovação e a criatividade sem as amarras dos grandes estúdios AAA.
+              Desde os tempos dos primeiros clássicos independentes até as
+              produções atuais com orçamentos de médio porte, a forma como
+              jogamos e nos conectamos com essas experiências passou por
+              transformações profundas. Atualmente, estamos no limiar de uma
+              nova era, onde ferramentas acessíveis permitem que pequenos
+              desenvolvedores criem mundos tão imersivos quanto os dos grandes
+              sucessos.
+            </p>
+
+            <p>
+              Muitos especialistas e críticos argumentam que a próxima década do
+              cenário indie será definida por uma mistura única de nostalgia,
+              originalidade e acessibilidade técnica. Criadores estão buscando
+              resgatar a essência dos jogos clássicos ao mesmo tempo em que
+              utilizam motores gráficos modernos para aprimorar a física, a
+              iluminação e as mecânicas de jogo.
+            </p>
+
+            <h3>Principais Tendências para os Próximos Anos</h3>
+
+            <ul>
+              <li>
+                <strong
+                  >Uso da Inteligência Artificial na Acessibilidade:</strong
+                >
+                Ferramentas baseadas em IA auxiliando pequenos times a acelerar
+                tarefas repetitivas de arte, dublagem e teste de bugs.
+              </li>
+              <li>
+                <strong>Evolução do Pixel Art e Low-Poly:</strong> Estilos
+                visuais retrô combinados com iluminação em tempo real (Ray
+                Tracing) e efeitos de pós-processamento avançados.
+              </li>
+              <li>
+                <strong>Narrativas Reativas e Procedurais:</strong> Jogos que se
+                adaptam ativamente às escolhas do jogador, oferecendo
+                experiências personalizadas a cada nova partida.
+              </li>
+              <li>
+                <strong>Foco em Experiências Cooperativas e Sociais:</strong>
+                Crescimento de jogos focados em interação entre amigos e
+                mecânicas emergentes criadas para transmissões ao vivo.
+              </li>
+            </ul>
+
+            <p>
+              Além das inovações técnicas, há uma mudança clara na relação entre
+              desenvolvedores e a comunidade. O público moderno busca cada vez
+              mais transparência no desenvolvimento, valorizando histórias
+              originais e propostas que fujam dos clichês da indústria de jogos
+              tradicionais.
+            </p>
+
+            <p>
+              Em suma, a paixão dos desenvolvedores independentes continua
+              firme, impulsionando a indústria a novos horizontes. O futuro
+              reserva experiências memoráveis para os jogadores, provando que
+              grandes ideias não precisam de orçamentos milionários para se
+              tornarem inesquecíveis.
+            </p>
+          </div>
+          <hr />
+          <div class="compartilhar">
+            <div class="compartilhar-t">
+              <p>Gostou do conteudo? compartilhe:</p>
+            </div>
+            <div class="compartilhar-bnt">
+              <button class="redes-sociais face"><p>Facebook</p></button>
+              <button class="redes-sociais zap-zap"><p>zap zap</p></button>
+              <button class="redes-sociais twitter"><p>Twiter</p></button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="conteiner">
+          <section class="rodape">
+            <div class="portal">
+              <p class="titulo">Indie<span>Zone</span></p>
+              <p>
+                Seu portal diário de notícias.<br />
+                Sobre jogos indie.
+              </p>
+            </div>
+            <div class="link-util">
+              <h3>Links Uteis</h3>
+              <ul>
+                <li>Sobre nós</li>
+                <li>Fale Conosco</li>
+                <li>Politica de Privacidade</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </footer>
+      <div class="credito"><p>Site. Criado para fins didaticos</p></div>
+    </main>
+    <button class="botao-ajuda">?</button>
+  </body>
+</html>
