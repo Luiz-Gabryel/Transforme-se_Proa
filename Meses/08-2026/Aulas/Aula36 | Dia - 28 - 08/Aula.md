@@ -1,0 +1,1 @@
+# Explicando mais sobre o projeto, conversa sobre nosso grupo
