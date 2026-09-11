@@ -1,0 +1,1 @@
+## aula sobre alguns medos do projeto, como vender a ideia do seu projeto, como lidar com a ansiedade e o medo de não conseguir entregar o que foi prometido.
