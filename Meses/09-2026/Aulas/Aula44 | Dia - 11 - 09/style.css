@@ -1,0 +1,16 @@
+.mostrar {
+  display: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#central {
+  display: none;
+  flex-direction: column;
+}
+
+.abrido {
+  background-color: rebeccapurple;
+}
+
