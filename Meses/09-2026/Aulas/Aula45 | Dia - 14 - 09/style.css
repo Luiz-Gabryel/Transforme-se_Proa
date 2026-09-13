@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif; 
+}
+
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+header img {
+  height: 50px;
+}
+
+
+.conteudo-central {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  flex: 1; 
+  background-color: blueviolet;
+}
+
+
+.chamada {
+  flex: 7;
+  display: flex;
+}
+
+/* Caixa de senha e local */
+.chamada-atual {
+  flex: 1; 
+  background-color: #ffffff;
+  border: 4px solid #b3b3b3;
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.ultimas-chamadas {
+  flex: 3;
+  background-color: #ffffff;
+  border: 4px solid #b3b3b3;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+.bloco-info h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.bloco-info p {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.destaque-vermelho {
+  color: #dc3545;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
