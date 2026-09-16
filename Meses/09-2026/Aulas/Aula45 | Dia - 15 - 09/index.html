@@ -3,57 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sistema de Senhas - SUS SP</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Aula prática</title>
   </head>
-  <body>
-    <div class="container-principal">
-      <header>
-        <div class="logo-sus">
-          <img
-            src="data:image/png;base64,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"
-            alt="Logo do SUS"
-          />
-        </div>
-        <div class="logo-prefeitura">
-          <img
-            src="https://capital.sp.gov.br/o/adaptive-media/image/25188884/Thumbnail-300x300/logo_PrefSP__horizontal_fundo+claro+%281%29.png?t=1748350244506"
-            alt="Logo da Prefeitura de São Paulo"
-          />
-        </div>
-      </header>
-
-      <main class="conteudo-central">
-        <!-- senha e local -->
-        <div class="chamada">
-          <section class="chamada-atual">
-            <div class="bloco-info">
-              <h2>Senha</h2>
-              <p id="senha" class="destaque-vermelho">P1</p>
-            </div>
-            <div class="bloco-info">
-              <h2>Local</h2>
-              <p id="local">Indefinido</p>
-            </div>
-          </section>
-        </div>
-
-        <!-- historico -->
-        <aside class="ultimas-chamadas">
-          <h2>Últimas chamadas</h2>
-          <ul id="lista-chamadas">
-            <li></li>
-          </ul>
-        </aside>
-      </main>
-
-      <footer>
-        <marquee behavior="scroll" direction="left">
-          Seja bem-vindo ao Sistema de Senhas do SUS SP. Por favor, aguarde sua
-          vez e mantenha a calma. Agradecemos pela sua compreensão.
-        </marquee>
-      </footer>
-    </div>
-    <script src="script.js"></script>
-  </body>
+  <body></body>
+  <script src="script.js"></script>
 </html>
