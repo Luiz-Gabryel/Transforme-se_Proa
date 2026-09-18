@@ -1,0 +1,6 @@
+.caixa {
+  display: flex;
+  align-items: center;
+  background-color: bisque;
+  height: 100px;
+}
