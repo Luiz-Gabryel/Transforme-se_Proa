@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240">
+<ellipse cx="110" cy="222" rx="80" ry="10" fill="#00000022"/>
+<polygon points="60,220 160,220 175,120 45,120" fill="#E63946"/>
+<polygon points="45,120 175,120 168,100 52,100" fill="#FFFFFF"/>
+<text x="110" y="175" font-family="Arial" font-size="20" font-weight="bold" fill="#E63946" text-anchor="middle">FRITAS</text>
+<rect x="58" y="60" width="14" height="70" rx="3" fill="#F4C430" transform="rotate(-10 65 130)"/>
+<rect x="75" y="48" width="14" height="82" rx="3" fill="#F4C430" transform="rotate(-7 82 130)"/>
+<rect x="92" y="36" width="14" height="94" rx="3" fill="#F4C430" transform="rotate(-4 99 130)"/>
+<rect x="108" y="60" width="14" height="70" rx="3" fill="#F4C430" transform="rotate(-1 115 130)"/>
+<rect x="124" y="48" width="14" height="82" rx="3" fill="#F4C430" transform="rotate(2 131 130)"/>
+<rect x="140" y="36" width="14" height="94" rx="3" fill="#F4C430" transform="rotate(5 147 130)"/>
+<rect x="156" y="60" width="14" height="70" rx="3" fill="#F4C430" transform="rotate(8 163 130)"/>
+</svg>

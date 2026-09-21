@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 240">
+<ellipse cx="90" cy="222" rx="70" ry="10" fill="#00000022"/>
+<polygon points="40,80 140,80 122,220 58,220" fill="#F4A300"/>
+<rect x="35" y="65" width="110" height="20" rx="6" fill="#E63946"/>
+<rect x="85" y="20" width="12" height="55" rx="5" fill="#FFFFFF"/>
+<text x="90" y="150" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">CHAMA</text>
+</svg>

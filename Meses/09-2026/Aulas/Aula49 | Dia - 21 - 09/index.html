@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lanches do seu Zé</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lanches do seu Zé</h1>
+    </header>
+
+    <button class="carrinho" id="carrinho" onclick="irParaPedidos()">Carrinho (0)</button>
+
+    <!-- TELA 1: produtos -->
+    <div id="tela-produtos">
+      <div class="produtos">
+        <div class="item">
+          <div class="imagem"><img src="assets/burger-classico.svg" alt="Hambúrguer" /></div>
+          <h2>Hambúrguer</h2>
+          <p>R$ 15,00</p>
+          <button onclick="adicionarHamburguer()">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="item">
+          <div class="imagem"><img src="assets/fritas.svg" alt="Batata frita" /></div>
+          <h2>Batata frita</h2>
+          <p>R$ 5,00</p>
+          <button onclick="adicionarBatata()">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="item">
+          <div class="imagem"><img src="assets/bebida.svg" alt="Refrigerante" /></div>
+          <h2>Refrigerante</h2>
+          <p>R$ 7,00</p>
+          <button onclick="adicionarRefrigerante()">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TELA 2: pedidos -->
+    <div id="tela-pedidos">
+      <div class="pedidos">
+        <h2>Seus Pedidos</h2>
+
+        <div class="linha-pedido" id="pedido-hamburguer">
+          <span>🍔 Hambúrguer</span>
+          <button onclick="removerHamburguer()">-</button>
+          <input type="number" id="qtdhamburguer" value="0" disabled />
+          <button onclick="adicionarHamburguer()">+</button>
+        </div>
+
+        <div class="linha-pedido" id="pedido-batata">
+          <span>🍟 Batata frita</span>
+          <button onclick="removerBatata()">-</button>
+          <input type="number" id="qtdbatata" value="0" disabled />
+          <button onclick="adicionarBatata()">+</button>
+        </div>
+
+        <div class="linha-pedido" id="pedido-refrigerante">
+          <span>🥤 Refrigerante</span>
+          <button onclick="removerRefrigerante()">-</button>
+          <input type="number" id="qtdrefrigerante" value="0" disabled />
+          <button onclick="adicionarRefrigerante()">+</button>
+        </div>
+
+        <p>Total: R$ <span id="total">0,00</span></p>
+
+        <button class="retornar" onclick="voltarParaProdutos()">Retornar</button>
+        <button class="finalizar" onclick="finalizarPedido()">Finalizar Pedido</button>
+      </div>
+    </div>
+
+    <!-- TELA 3: extrato -->
+    <div id="tela-extrato">
+      <div class="extrato">
+        <h2>Extrato do Pedido</h2>
+
+        <p id="extrato-hamburguer"></p>
+        <p id="extrato-batata"></p>
+        <p id="extrato-refrigerante"></p>
+
+        <hr />
+
+        <p id="extrato-subtotal"></p>
+        <p id="extrato-desconto"></p>
+        <h3 id="extrato-total"></h3>
+
+        <button onclick="novoPedido()">Novo Pedido</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
