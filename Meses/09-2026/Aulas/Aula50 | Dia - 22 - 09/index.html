@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lanchonete</title>
+</head>
+<body>
+    
+    <h1>Lanchonete do Proa v1.0</h1>
+
+    <div id="tela-produtos">
+        
+        <div class="item">
+            <p>🍔 <strong>Hamburguer</strong> R$ 20,00</p>
+            <button onclick="removerHamburguer()">-</button>
+            <input type="number" id="qtd-hamburguer" value="0" min="0" disabled> 
+            <button onclick="adicionarHamburguer()">+</button>
+        </div>
+
+        <div class="item">
+            <p>🍟 <strong>Batata Frita</strong> R$ 10,00</p>
+            <button onclick="removerBatata()">-</button>
+            <input type="number" id="qtd-batata" value="0" min="0" disabled> 
+            <button onclick="adicionarBatata()">+</button>
+        </div>
+
+        <div class="item">
+            <p>🥤 <strong>Refrigerante</strong> R$ 5,00</p>
+            <button onclick="removerRefri()">-</button>
+            <input type="number" id="qtd-refri" value="0" min="0" disabled> 
+            <button onclick="adicionarRefri()">+</button>
+        </div>
+        
+        <br>
+
+        <button onclick="irParaResumo()">Ver resumo do Pedido</button>
+
+    </div>
+
+    <br>
+
+    <div id="tela-resumo">
+
+        <h2>Seu Pedido</h2>
+
+        <ul id="lista-pedido"></ul>
+
+        <h3 id="texto-total">Total: R$ 0,00</h3>
+
+        <button>Editar Pedido</button>
+        <button>Novo Pedido</button>
+
+</div>
+</body>
+

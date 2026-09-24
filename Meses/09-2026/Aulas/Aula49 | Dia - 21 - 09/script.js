@@ -195,3 +195,4 @@ function novoPedido() {
   telaProdutos.style.display = "block";
   botaoCarrinho.style.display = "block";
 }
+
